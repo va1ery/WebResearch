@@ -9,6 +9,7 @@ namespace WebResearch.Models
         public string Url { get; set; } 
         public DateTime DateSaved { get; set; } 
         public string Note { get; set; } 
+        public bool Read { get; set; }
     } 
  
     public class ResearchContext : DbContext 
