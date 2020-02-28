@@ -64,7 +64,7 @@ namespace WebResearch
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Research}/{action=Index}/{id?}");
+                    pattern: "{controller=Researches}/{action=Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
